@@ -1,0 +1,7 @@
+workspace loadfrom -path .
+cell open -design MUX_8x1_3 -cell Cell0 -type symbol -newwindow
+window move -left 0 -top 0 -width 798 -height 321 -undock -max 
+window fit -x0 -3265 -y0 722 -x1 2883 -y1 3621 -units iu
+workspace dockinglayout load -file dockinglayout.xml
+source open.design -relativeto user -encoding utf-8
+source open.design -relativeto design -encoding utf-8
